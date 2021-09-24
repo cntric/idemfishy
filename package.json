@@ -1,5 +1,5 @@
 {
-  "name": "determinismus",
+  "name": "idemfishy",
   "version": "0.1.0",
   "description": "Helps you check that your functions are deterministic.",
   "main": "dist/cjs/index.js",
