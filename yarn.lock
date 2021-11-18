@@ -3831,9 +3831,10 @@ tr46@^2.1.0:
   dependencies:
     punycode "^2.1.1"
 
-"tulleries@https://github.com/concentricio/tulleries":
-  version "0.1.0"
-  resolved "https://github.com/concentricio/tulleries#7c3e0cb4d495f5df96d77c1d28ccfa8458533d3b"
+tulleries@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/tulleries/-/tulleries-0.0.1.tgz#f572cfe9c155d33e6069476f8185b8ba853f1b57"
+  integrity sha512-J50PzNsJ0F2Kr7tb1HSmAH48E2P+9y8oEP/MeXJPXQWyAGVL/0ujcWEwRzXmbUCjD6iksa6eHz6uilQX6dS0xg==
   dependencies:
     "@types/node" "^16.9.1"
     "@types/shortid" "^0.0.29"

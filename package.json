@@ -1,7 +1,16 @@
 {
   "name": "idemfishy",
-  "version": "0.1.0",
-  "description": "Helps you check that your functions are deterministic.",
+  "version": "0.0.1",
+  "description": "Identifies functions that are likely idempotent.",
+  "keywords" : [
+    "idempotent",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/cntric/idemfishy"
+  },
+  "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
   "exports": {
@@ -16,9 +25,7 @@
     "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./tsconfig-fixup",
     "docs": "rm -fr docs/* && npx typedoc src --categorizeByGroup false && http-server ./docs"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
@@ -27,7 +34,7 @@
     "babel-jest": "^27.1.1",
     "jest": "^27.1.1",
     "nodemon": "^2.0.12",
-    "tulleries": "https://github.com/concentricio/tulleries",
+    "tulleries": "^0.0.1",
     "typescript": "^4.4.2"
   },
   "dependencies": {
